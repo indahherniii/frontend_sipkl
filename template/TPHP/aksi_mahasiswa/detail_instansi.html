@@ -104,23 +104,16 @@
       <div class="sidebar-wrapper scrollbar scrollbar-inner">
         <div class="sidebar-content">
           <ul class="nav nav-primary">
-    
             <li class="nav-item">
               <a class="nav-link" href="../view_mahasiswa/dashboard.html">
                 <i class="fas fa-home"></i>
                 <p>Dashboard</p>
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="../view_mahasiswa/lowongan.html">
                 <i class="fas fa-search"></i>
                 <p>Lowongan</p>
-              </a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="../view_mahasiswa/instansi.html">
-                <i class="fas fa-building"></i>
-                <p>Instansi</p>
               </a>
             </li>
             <li class="nav-item">
@@ -154,33 +147,67 @@
                     <h4 class="card-title">Detail Perusahaan atau Instansi</h4>
                   </div>
                 </div>
-      
+
                 <div class="card-body">
                   <div class="row">
                     <div class="col-md-12">
                       <div class="perusahaan-detail">
                         <div class="perusahaan-header">
-                          <img src="../../assets/img/contohP.jpg" alt="Logo Perusahaan" class="perusahaan-logo">
+                          <img src="../../assets/img/contohP.jpg" alt="Logo Perusahaan" class="perusahaan-logo" style="width: 100%; margin: 0; padding: 0;">
                           <div class="perusahaan-info">
-                            <h2 class="perusahaan-nama">PT PLN (Persero) UP3 Ketapang</h2>
-                            <p class="perusahaan-deskripsi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-                              veritatis nesciunt, unde laudantium reprehenderit suscipit molestias rem, corporis facilis error
-                              magnam dolorum quasi perspiciatis eos aut animi architecto eveniet vero.</p>
+                            <h1 class="perusahaan-nama"><strong>Kementerian Pertanian atau Dinas Pertanian</strong></h1>
+                            <p class="perusahaan-deskripsi">Kementerian atau dinas pertanian bertanggung jawab untuk mengatur dan mengawasi kebijakan pertanian, serta memberikan dukungan kepada petani dalam hal teknik pertanian, pelatihan, dan bantuan.</p>
                           </div>
                         </div>
                         <div class="perusahaan-kontak">
                           <h3>Kontak</h3>
                           <ul>
                             <li><strong>Alamat:</strong> Jl. NeonCity Alamat No. 123, Kota NCTDream</li>
-                            <li><strong>Email:</strong> plnup3ketapang.com</li>
+                            <li><strong>Email:</strong> kementrianPDP@gmail.com</li>
                             <li><strong>Telepon:</strong> 0123456789</li>
-                            <li><strong>Website:</strong> <a href="https://www.pln.com">www.perusahaan.com</a></li>
+                            <li><strong>Website:</strong> <a href="https://www.kpdp.com">www.kpdpcompany.com</a></li>
+                          </ul>
+                        </div>
+                        <div class="Posisi Penempatan">
+                          <h3>Posisi Penempatan</h3>
+                          <ul>
+                            <p><strong>1.</strong> <strong>Mengelola Hasil Kebun</strong></p>
                           </ul>
                         </div>
                       </div>
                     </div>
                   </div>
+                  
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h3>Unggah Persyaratan Magang</h3>
+                      <form action="/upload" method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                          <label for="khsUpload">Kartu Hasil Studi (KHS):</label>
+                          <input type="file" class="form-control-file" id="khsUpload" name="khsUpload" accept=".pdf,.doc,.docx">
+                        </div>
+                        <div class="form-group">
+                          <label for="rekomendasiUpload">Surat Rekomendasi Politeknik Negeri Ketapang:</label>
+                          <input type="file" class="form-control-file" id="rekomendasiUpload" name="rekomendasiUpload" accept=".pdf,.doc,.docx">
+                        </div>
+                        <div class="row">
+                          <div class="col-md-12 text-right">
+                            <a href="../view_mahasiswa/pkl.html" class="btn btn-sm btn-primary">
+                              <span class="btn-label">
+                                <i class="fa fa-check"></i>
+                              </span>
+                              Daftar Sekarang
+                            </a>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
                 </div>
+                
+                
+
+                
               </div>
               </hr>
             </div>
